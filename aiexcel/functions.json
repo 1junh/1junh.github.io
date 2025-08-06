@@ -1,0 +1,65 @@
+{
+    "allowCustomDataForDataTypeAny": true,
+    "functions": [
+        {
+            "description": "Returns the Azure OpenAI response.",
+            "id": "AI_AZURE",
+            "name": "AI_AZURE",
+            "parameters": [
+                {
+                    "description": "String to write.",
+                    "name": "message",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Returns the OpenAI response.",
+            "id": "AI_OPENAI",
+            "name": "AI_OPENAI",
+            "parameters": [
+                {
+                    "description": "String to write.",
+                    "name": "message",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Returns the Google Gemini AI response.",
+            "id": "AI_GEMINI",
+            "name": "AI_GEMINI",
+            "parameters": [
+                {
+                    "description": "String to write.",
+                    "name": "message",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Returns the Anthropic AI response.",
+            "id": "AI_CLAUDE",
+            "name": "AI_CLAUDE",
+            "parameters": [
+                {
+                    "description": "String to write.",
+                    "name": "message",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        }
+    ]
+}
